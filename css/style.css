@@ -1,0 +1,29 @@
+@import url(reset.css);
+@import 'https://fonts.googleapis.com/css?family=Play:400,700&subset=cyrillic,cyrillic-ext,greek,latin-ext';
+body, html {
+    height: 100%;
+    font-family: 'Play', sans-serif !important;
+}
+.col-md-4 .list-group-item {
+    display: block !important;
+    width: 100% !important;
+}
+.list-group-item {
+    display: inline-block !important;
+    width: 50% !important;
+}
+.list-group-item:first-child {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.list-group-item:last-child {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.table thead {
+    background-color: yellow;
+}
+.table th, .table td {
+    text-align: center !important;
+    font-weight: bold;
+}
